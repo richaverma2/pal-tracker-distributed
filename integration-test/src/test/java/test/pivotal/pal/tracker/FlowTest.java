@@ -16,7 +16,6 @@ import static org.assertj.core.api.Fail.fail;
 import static test.pivotal.pal.tracker.support.MapBuilder.jsonMapBuilder;
 
 public class FlowTest {
-    //Test
 
     private final HttpClient httpClient = new HttpClient();
     private final String workingDir = System.getProperty("user.dir");
